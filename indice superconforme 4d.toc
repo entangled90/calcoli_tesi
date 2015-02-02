@@ -1,0 +1,16 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {0.1}Indice superconforme per Kutasov-Schwimmer (4d) (Teoria Elettrica) }{2}{section.0.1}
+\contentsline {subsubsection}{Contributo dalla parte vettoriale}{4}{section*.2}
+\contentsline {subsubsection}{Contributo della materia nell'aggiunta}{5}{section*.3}
+\contentsline {subsubsection}{Contributo materia nella fondamentale}{7}{section*.4}
+\contentsline {subsection}{\numberline {0.1.1}Formula per Indice superconforme Kutasov-Schwimmer 4d}{7}{subsection.0.1.1}
+\contentsline {section}{\numberline {0.2}Riduzione dell'indice alla funzione di partizione}{8}{section.0.2}
+\contentsline {subsubsection}{Funzione di partizione}{8}{section*.5}
+\contentsline {subsubsection}{Contributo divergente}{9}{section*.6}
+\contentsline {subsubsection}{Funzione di partizione}{10}{section*.7}
+\contentsline {subsubsection}{Masse reali e flow senza $\eta $}{10}{section*.8}
+\contentsline {subsubsection}{Limite per $m \rightarrow \infty $}{11}{section*.9}
+\contentsline {section}{\numberline {0.3}Indice superconforme per Kutasov-Schwimmer (4d) (Teoria Magnetica) }{13}{section.0.3}
+\contentsline {subsubsection}{Contributo dei campi chirali}{13}{section*.10}
+\contentsline {subsubsection}{Contributo dei mesoni}{14}{section*.11}
