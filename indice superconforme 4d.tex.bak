@@ -23,7 +23,8 @@
  \begin{document}
 \maketitle
 \newpage
-\section{Indice superconforme per Kutasov-Schwimmer (4d) (Teoria Elettrica) }
+\chapter{Indici superconformi e funzioni di partizione}
+\section{Teoria Elettrica}
  L'indice superconforme della teoria elettrica di Kutasov-Schwimmer ( $ SU(N_C)  \times SU(N_f)_L)\times SU(N_f)_R)\times  U(1)_B  $) è dato da (vedi \citep{Dolan:2008qi})
  \begin{equation}
 \begin{aligned}
@@ -52,12 +53,9 @@ Esplicitando i polinomi si ottiene
 + (p\,q)^{{1\over 2}r}\, {1\over v}\, \tilde y_i \, z_j^{-1}
 - (p\,q)^{1- {1\over 2}r} \, v\, \tilde y_i^{-1}\, z_j\bigg) \,\\
 \end{align*}
-
-
-
- riscalando $ (pq)^{ \frac{1}{2} r }v y \rightarrow y$ e  
+riscalando $ (pq)^{ \frac{1}{2} r }v y \rightarrow y$ e  
 $ (pq)^{- \frac{1}{2} r } v \tilde y \rightarrow \tilde y$  :
- \begin{equation}
+\begin{equation}
 \begin{aligned}
 &i_E(p,q,y,{\tilde y},y) =\\ 
 &{} -\bigg({p\over 1-p}+{q\over 1-q } -{1 \over (1-p)(1-q)}
@@ -224,7 +222,7 @@ $$
 \subsection{Formula per Indice superconforme Kutasov-Schwimmer 4d}
 Mettendo insieme tutti i contributi e aggiungendo anche l'integrazione sul gruppo di gauge si ottiene l'espressione finale per l'indice superconforme
 \begin{align*}
-&I_{El} ( p,q,y,\tilde y) = \\
+&I_{El} ( p,q,y,\tilde y , v) = \\
  & { 1 \over N_c !} (p;p)^{N_c-1} ( q;q)^{N_c-1} \, \Gamma_e( (pq)^s;p,q)^{N_c-1} \\
 &\int_{T^{N_c-1}} \bigg( \prod_{i=1}^{N_c } { d z_i \over { 2 \pi i z_i} } \bigg) \delta \bigg( \prod_{i=1}^{N_c} z_i - 1 \bigg) 
 \prod_{ 1 \leq i < j \leq N_c} \frac{ \Gamma_e \big( (pq)^s {z_i \over z_j} \big) \Gamma_e \big( (pq)^s {z_j \over z_i} \big) }{ \Gamma_e( {z_i \over z_j};p,q) \Gamma_e({z_j \over z_i}; p,q)} \\
@@ -517,13 +515,13 @@ Ottenendo così il contributo completo dei campi chirali (ripristinando le R-car
 \end{equation}
 
 \subsubsection{Contributo dei mesoni}
-L'indice di singolo stato dei mesoni è differente come forma da quelli incontrati fin'ora (essendo spin-0 di spacetime).
+L'indice di singolo stato dei mesoni è calcolto come i campi chirali, tenendo conto che la loro R-carica è $ R_M = 2 R_Q + R_X j$ dove $j$ indica l'esponente dell'aggiunta nel mesone.
 (Seconda formula è da Dolan Osborn, inutilmente complicata, equivale alla mia (la prima))
 \begin{align*}
  i_M^{Mesons} (p,q, \tilde v, y,\tilde y ,\tilde z) = 
- &\frac{1}{(1-p)(1-q)} \sum_i^{N_f} \sum_j^{N_f}   \sum_{l=0}^{k-1}  \bigg( (pq)^{( s +r )}m_{ij}  - (pq)^{1 -( s +r )}
-m_{ij}^{-1} \bigg)\\ 
- & \frac{1}{(1-p)(1-q)}\frac{1 - (pq)^{1-s}}{1 - (pq)^s}  \sum_i^{N_f} \sum_j^{N_f}  \bigg( (pq)^r
+\,  &\frac{1}{(1-p)(1-q)} \sum_i^{N_f} \sum_j^{N_f}   \sum_{l=0}^{k-1}  \bigg( (pq)^{( r+ l s  )}m_{ij}  - (pq)^{1 -( r + l s )}
+m_{ij}^{-1} \bigg) = \\ 
+= \, & \frac{1}{(1-p)(1-q)}\frac{1 - (pq)^{1-s}}{1 - (pq)^s}  \sum_i^{N_f} \sum_j^{N_f}  \bigg( (pq)^r
 m_{ij} - (pq)^{2s-r} 
 m_{ij}^{-1} \bigg)\\
 \end{align*}
@@ -531,41 +529,29 @@ m_{ij}^{-1} \bigg)\\
 L'esponenziale da calcolare è:
 \begin{align*}
 & \exp \bigg( \sum_{n}^{\infty} \frac{1}{n} i_M^{Meson} (p^n,q^n, \tilde v^n, y^n,\tilde y^n) \bigg) = \\
-& \prod_i^{N_f} \prod_j^{N_f}  \prod_{l=0}^{k-1} \exp \sum_{n}^{\infty} \bigg( \frac{1}{n}  \frac{1}{(1-p^n)(1-q^n)} \bigg( (pq)^{(r+s)n}
-m_{ij}^n - (pq)^{(1-(r+s)n} 
-m_{ij}^{-n} \bigg)
+& \prod_i^{N_f} \prod_j^{N_f}  \prod_{l=0}^{k-1} \exp \sum_{n}^{\infty} \bigg( \frac{1}{n}  \frac{1}{(1-p^n)(1-q^n)} \bigg( (pq)^{(r + l s )n}
+m_{ij}^n - (pq)^{(1-(r + l s )n} 
+m_{ij}^{-n} \bigg) \bigg) \\
 \end{align*}
-\begin{comment}
-Notare come una frazione può essere riscritta come serie geometrica:
-\begin{align*}
- \frac{1 - (pq)^{(1-s)}}{1 - (pq)^{s}} = \sum_{j=0}^{k-1} \big((pq)^s\big)^j = \frac{1 - (pq)^{sk}}{1 - (pq)^s} \qquad \mbox{ NB } s = \frac{1}{k+1}\\
-  s k  = \frac{k}{k+1} = 1 - \frac{1}{k+1} = 1-s  
-\end{align*}
-Possiamo riscriverlo quindi come:
+
+Ponendo ora $ (pq)^{r+sl} = y$:
 \begin{align*}
 & \exp \bigg( \sum_{n}^{\infty} \frac{1}{n} i_M^{Meson} (p^n,q^n, \tilde v^n, y^n,\tilde y^n) \bigg) = \\
-& \prod_i^{N_f} \prod_j^{N_f}  \exp \sum_{n}^{\infty} \bigg( \frac{1}{n}  \frac{1}{(1-p^n)(1-q^n)} \sum_{l=0}^{k-1} (pq)^{sln}  \bigg( (pq)^{rn}
-m_{ij}^n - (pq)^{(2s-r)n} 
-m_{ij}^{-n} \bigg)\bigg) \\
-& \prod_i^{N_f} \prod_j^{N_f}  \prod_{l=0}^{k-1} \exp \sum_{n}^{\infty} \bigg( \frac{1}{n}  \frac{1}{(1-p^n)(1-q^n)} (pq)^{sln}  \bigg( (pq)^{rn}
-m_{ij}^n - (pq)^{(2s-r)n} 
-m_{ij}^{-n} \bigg) \bigg) \\
-& \prod_i^{N_f} \prod_j^{N_f}  \prod_{l=0}^{k-1} \exp \sum_{n}^{\infty} \bigg( \frac{1}{n}  \frac{1}{(1-p^n)(1-q^n)} \bigg( (pq)^{(r+sl)n}
-m_{ij}^n - (pq)^{(s(2+2l)-(r+sl))n} 
-m_{ij}^{-n} \bigg) \bigg) \\
-\end{align*}
-Ponendo $ (pq)^{r+sl} = y$ :
-\begin{align*}
 & \prod_i^{N_f} \prod_j^{N_f}  \prod_{l=0}^{k-1} \exp \sum_{n}^{\infty} \bigg( \frac{1}{n}  \frac{1}{(1-p^n)(1-q^n)} \bigg( y^n
-m_{ij}^n - (pq)^{s(2+2l)n}y^{-n} 
-m_{ij}^{-n} \bigg) \bigg) \\
+m_{ij}^n - (pq/y)^{n} 
+m_{ij}^{-n} \bigg) \bigg)\\
+= \, & \prod_i^{N_f} \prod_j^{N_f}  \prod_{l=0}^{k-1} \Gamma_e ( (pq)^{r + l s} ; p ,q)
 \end{align*}
 
-\end{comment}
-
-
-
-
+\subsection{Teoria magnetica}
+L'indice superconforme per la teoria magnetica è dato da ( $\tilde{N_c} = k N_f - N_c$):
+\begin{align*}
+&I_{Mag} ( p,q,y,\tilde y,\tilde v) = \\
+ & { 1 \over \tilde{N_c !}} (p;p)^{\tilde{N_c}-1} ( q;q)^{\tilde{N_c}-1} \, \Gamma_e( (pq)^s;p,q)^{\tilde{N_c}-1} \bigg( \prod_i^{N_f} \prod_j^{N_f}  \prod_{l=0}^{k-1} \Gamma_e ( (pq)^{R_Q + l s} ; p ,q) \bigg) \\
+&\int_{T^{\tilde{N_c-1}}} \bigg( \prod_{i=1}^{ \tilde{N_c }} { d z_i \over { 2 \pi i z_i} } \bigg) \delta \bigg( \prod_{i=1}^{\tilde{N_c}} z_i - 1 \bigg) 
+\prod_{ 1 \leq i < j \leq \tilde{N_c}} \frac{ \Gamma_e \big( (pq)^s {z_i \over z_j} \big) \Gamma_e \big( (pq)^s {z_j \over z_i} \big) }{ \Gamma_e( {z_i \over z_j};p,q) \Gamma_e({z_j \over z_i}; p,q)} \\
+& \prod_{ 1 \leq j \leq \tilde{N_c}} \prod_{ 1 \leq i \leq N_f} \Gamma_e ( (pq)^{s - {1 \over 2 } r} \tilde{v} y_i \tilde{z_j} ; p,q)\Gamma_e ( (pq)^{s - {1 \over 2 } r} \tilde{v}^{-1} \tilde y_i \tilde{z_j}^{-1} ; p,q)
+\end{align*}
 
 \bibliography{bibliografia}
 %%\bibliographystyle{plainnat}
