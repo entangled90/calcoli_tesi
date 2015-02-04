@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.1.21)  3 FEB 2015 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.1.21)  3 FEB 2015 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,130 +645,157 @@ Package JHEP Warning: E-mails are missing.
  [1
 
 ]
-Capitolo 1.
+
+Package natbib Warning: Citation `Dolan:2008qi' on page 2 undefined on input li
+ne 27.
+
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 31.
+(amsmath)                 on input line 30.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.55 \end{align*}
-                  [1
-
-] [2]
-Overfull \hbox (36.00584pt too wide) in paragraph at lines 100--100
+[2]
+Overfull \hbox (36.00584pt too wide) in paragraph at lines 99--99
 [] 
  []
 
 [3] [4]
 
-LaTeX Warning: Command \i invalid in math mode on input line 161.
+LaTeX Warning: Command \i invalid in math mode on input line 160.
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 166.
-
-
-Overfull \hbox (62.5206pt too wide) in paragraph at lines 178--178
-[] 
- []
+LaTeX Warning: Command \i invalid in math mode on input line 165.
 
 [5]
-Overfull \hbox (9.97978pt too wide) in paragraph at lines 216--216
+Overfull \hbox (62.5206pt too wide) in paragraph at lines 177--177
 [] 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-
- []
-
-
-Package natbib Warning: Citation `vanDeBult:2007' on page 7 undefined on input 
-line 245.
-
-
-Overfull \hbox (47.01854pt too wide) in paragraph at lines 261--261
+Overfull \hbox (9.97978pt too wide) in paragraph at lines 215--215
 [] 
  []
 
 
-Package natbib Warning: Citation `vanDeBult:2007' on page 7 undefined on input 
-line 262.
-
-[7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 370--379
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
+[7]
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--403
+Package natbib Warning: Citation `vanDeBult:2007' on page 8 undefined on input 
+line 244.
+
+
+Overfull \hbox (47.01854pt too wide) in paragraph at lines 260--260
+[] 
+ []
+
+
+Package natbib Warning: Citation `vanDeBult:2007' on page 8 undefined on input 
+line 261.
+
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 384--393
 
  []
 
 [10]
-Overfull \hbox (6.45091pt too wide) in paragraph at lines 434--434
-[] 
+Underfull \hbox (badness 10000) in paragraph at lines 413--417
+
  []
+
+
+Package natbib Warning: Citation `Aharony:2013dha' on page 11 undefined on inpu
+t line 418.
+
+
+Package natbib Warning: Citation `Aharony:2013dha' on page 11 undefined on inpu
+t line 425.
 
 [11]
-Overfull \hbox (7.14815pt too wide) in paragraph at lines 441--441
-[]\OT1/cmr/bx/n/14.4 Indice su-per-con-for-me per Kutasov-Schwimmer (4d) (Teo-
- []
-
-[12] [13]
-Overfull \hbox (8.51816pt too wide) in paragraph at lines 527--527
+Overfull \hbox (6.45091pt too wide) in paragraph at lines 448--448
 [] 
  []
 
-(./indice superconforme 4d.bbl [14])
+
+Overfull \hbox (39.19643pt too wide) in paragraph at lines 462--462
+[] 
+ []
+
+[12] [13] [14]
+Overfull \hbox (8.51816pt too wide) in paragraph at lines 554--554
+[] 
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 587--589
+
+ []
+
+
+Overfull \hbox (17.91862pt too wide) in paragraph at lines 598--598
+[] 
+ []
+
+[16]
+Overfull \hbox (45.29707pt too wide) in paragraph at lines 611--611
+[] 
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 637--639
+
+ []
+
+
+Overfull \hbox (65.88162pt too wide) in paragraph at lines 650--650
+[] 
+ []
+
+
+Overfull \hbox (51.11842pt too wide) in paragraph at lines 662--662
+[] 
+ []
+
+[18] (./indice superconforme 4d.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 558.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.558 \end{document}
-                     [1
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 558.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 666.
+[19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 666.
  (./indice superconforme 4d.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 558.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 558.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 666.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 666.
 Package rerunfilecheck Info: File `"indice superconforme 4d".out' has not chang
 ed.
-(rerunfilecheck)             Checksum: FFDA3C7056CDAC71F2AD9CA565F2A14B;529.
+(rerunfilecheck)             Checksum: 343F4E0A0281E695441FB521C416436B;473.
  ) 
 Here is how much of TeX's memory you used:
- 7678 strings out of 493108
- 105631 string characters out of 6140725
- 218899 words of memory out of 5000000
- 10965 multiletter control sequences out of 15000+600000
- 16676 words of font info for 61 fonts, out of 8000000 for 9000
+ 7673 strings out of 493108
+ 105501 string characters out of 6140725
+ 218857 words of memory out of 5000000
+ 10952 multiletter control sequences out of 15000+600000
+ 15082 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,30p,810b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,19n,30p,810b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 ></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "indice superconforme 4d.pdf" (18 pages, 277869 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx1
+0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb>
+Output written on "indice superconforme 4d.pdf" (21 pages, 259862 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
